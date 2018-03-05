@@ -1,0 +1,23 @@
+<div class="favourites-wrapper">
+    <div class="favcardstitle">
+        <h4>Favourite services</h4>
+    </div>
+    <div class="fav-row">
+        <app-favcard *ngFor="let i of favcardstitle" [cardNumber]="i"></app-favcard>
+    </div>
+</div>
+<div class="allcards-wrapper">
+    <div class="allcardstitle">
+        <h4>All services</h4>
+    </div>
+    <div class="all-row">
+        <app-allcards *ngFor="let i of allcardstitle" [cardNumber]="i"></app-allcards>
+    </div>
+</div>
+<ul class="pagination">
+    <li class="disabled"><a href="#"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li class="waves-effect"><a href="#">2</a></li>
+    <li class="waves-effect"><a href="#">3</a></li>
+    <li class="waves-effect"><a href="#"><i class="material-icons">chevron_right</i></a></li>
+</ul>

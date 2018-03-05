@@ -1,29 +1,15 @@
-<div class="wrapper-all">
+<!-- <div class="wrapper-all">
     <div class="header">
         <app-header></app-header>
     </div>
     <div class="leftnav">
         <app-leftnav></app-leftnav>
     </div>
-    <div class="cards-wrapper">
-        <div class="favourites-wrapper">
-            <div class="favcardstitle">
-                <h4>Favourite services</h4>
-            </div>
-            <div class="fav-row">
-                <app-favcard *ngFor="let i of favcardstitle" [cardNumber]="i"></app-favcard>
-            </div>
-        </div>
-        <div class="allcards-wrapper">
-            <div class="allcardstitle">
-                <h4>All services</h4>
-            </div>
-            <div class="all-row">
-                <app-allcards *ngFor="let i of allcardstitle" [cardNumber]="i"></app-allcards>
-            </div>
-        </div>
+    <div class="main-wrapper">
+        <router-outlet></router-outlet>
     </div>
     <div class="footer">
         <app-footer></app-footer>
     </div>
-</div>
+</div> -->
+<app-login-page></app-login-page>
